@@ -4,9 +4,6 @@ from math import sqrt
 def get_roots(a, b, c):
     """Returns roots of quadratic equation a*x^2 + b*x + c = 0.
 
-    Returns 2 roots if discriminant > 0, 1 root if discriminant == 0,
-    and no roots if discriminant is negative.
-
     Arguments:
         a (float): a-coefficient of quadratic equation.
         b (float): b-coefficient of quadratic equation.
